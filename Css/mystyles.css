@@ -1,0 +1,299 @@
+/*Common classes used for styling*/
+.heading_text{
+  text-align: center;
+  padding-top:10px;
+	text-decoration: none;
+	margin-left:0px;
+  font: 400 130px/0.8 'Sorts Mill Goudy', serif;
+  color: #fff;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+}
+
+.content_style1{
+  background-color: #5499C7;
+  background-image: url("../Images/noise1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:#17202A;
+}
+
+.content_style2{
+  background-image: url("../Images/noise.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.content_head_style{
+  font: 400 50px/0.8 'Sorts Mill Goudy', serif;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.content_details{
+  font: 400 25px/0.8 'Sorts Mill Goudy', serif;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+  font-weight: bold;
+  text-align:center;
+}
+
+.content_details_carousel{
+  font: 400 25px/0.8 'Sorts Mill Goudy', serif;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+  text-align:left;
+  line-height: 40px;
+  color: #fff;
+}
+
+.modal{
+  background-color: #17202A;
+  background-image: url("../Images/noise.png");
+}
+
+.modal-content{
+  width: 100%;
+  height: 100%;
+  background-color: #A2D9CE;
+  background-image: url("../Images/noise.png");
+  font: 400 20px/0.8 'Sorts Mill Goudy', serif;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+  color: #17202A;
+}
+
+/* ============================================================
+    Parallax divs
+============================================================ */
+.module:last-child {
+  margin-bottom: 0;
+}
+
+.module.parallax {
+  border-bottom: 2px solid white;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+/*******General styled elements end*********/
+
+body{
+    background-color:#17202A;
+    visibility:hidden; /*initially unvisible as 'loading iframe is being displayed*/
+    overflow-x:hidden;
+}
+
+/*Section1 and child components*/
+.section1{
+  height: 100vh;
+}
+
+#profile_pic{
+  height: inherit;
+  background-image: url("../Images/img1.jpg");
+  background-size: cover;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+}
+
+#intro_info{
+  background-image: url("../Images/noise.png");
+  background-size: contain;
+  height: inherit;
+}
+
+#box{
+  position: absolute;
+  left: 36%;
+  bottom: 10px;
+  width: 30%;
+  height: 90px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  text-align: center;
+  padding-top:20px;
+	text-decoration: none;
+  font: 400 60px/0.8 'Sorts Mill Goudy', serif;
+  color: #fff;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+}
+/********Section 1 styling ends*********/
+
+/*Section2 and child components*/
+.section2{
+  height: 80vh;
+}
+/********Section2 styling ends**********/
+
+/*Section3 and child components*/
+.section3{
+  height: 100vh;
+}
+
+.verticalLine {
+    border-left: 4px solid #000000;
+    border-color: #fff;
+}
+
+.li_item{
+  background: inherit;
+  font-size: 30px;
+  border: 1px solid white;
+  border-radius: 4px;
+  width: 360px;
+  height: 60px;
+  padding-top: 15px;
+}
+
+.li_item:hover:enabled{
+  background-color: #fff;
+  background-image: url("../Images/noise.png");
+  color: #17202A;
+}
+
+.li_item:enabled{
+  color: #fff;
+}
+
+#certs{
+  color: #17202A;
+  text-decoration:none;
+}
+
+#certs:hover{
+  font-size: 29px;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+}
+/********Section3 styling ends**********/
+
+/*Section4 and child components*/
+.section4{
+  height: 100vh;
+}
+
+.carousel-inner{
+  background-color: #17202A;
+  background-image: url("../Images/noise.png");
+  color: #fff;
+  height: 450px;
+  border-radius:6px;
+  border:2px solid #17202A;
+}
+
+.i_proj
+{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 3px solid #17202A;
+  color: white;
+  text-align: center;
+  padding-top: 5%;
+  background-color: #fff;
+  background-image: url("../Images/noise.png");
+  color: #17202A;
+}
+/********Section4 styling ends**********/
+
+
+/*Section5 and child components*/
+.section5{
+  height: 100vh;
+}
+
+.i_social
+{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 3px solid white;
+  color: white;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.i_social:hover{
+  background-color: #fff;
+  background-image: url("../Images/noise.png");
+  color: #17202A;
+}
+
+#msg_btn{
+  align-self: center;
+  border: 1px solid white;
+  width: 320px;
+  height: 70px;
+  font-size: 30px;
+  background-color: inherit;
+}
+
+#msg_btn:enabled{
+  color: #fff;
+}
+
+#msg_btn:hover{
+  background-color: #fff;
+  background-image: url("../Images/noise.png");
+  color: #17202A;
+}
+/********Section5 styling ends**********/
+
+/*Footer styling*/
+
+.img-rounded:hover{
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+}
+
+#top_caret{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 3px solid white;
+  text-align: center;
+  margin-top: 2%;
+  font-size:20px;
+  margin-left:49%;
+  padding-top:5px;
+  color: #fff;
+}
+
+#top_caret:hover{
+  background-color: #fff;
+  background-image: url("../Images/noise.png");
+  color: #17202A;
+}
+/*********Footer styling ends**********/
+
+
+iframe {
+    display: block;       /* iframes are inline by default */
+    border: none;         /* Reset default border */
+    height: 100vh;        /* Viewport-relative units */
+    width: 100vw;
+}
+
+
+.close{
+  color: #17202A;
+  opacity: 1;
+  font-size: 30px;
+  padding-right: 10px;
+  font-family: monospace;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    body {
+        overflow-x: visible;
+    }
+    .content_container{
+        margin-left:auto;
+        margin-right:auto;
+        min-width:1200px;
+    }
+}

@@ -1,1 +1,1 @@
-# jain98.github.io
+Personal website built using HTML, CSS, and JavaScript
