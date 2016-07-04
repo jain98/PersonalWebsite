@@ -46,6 +46,8 @@ $(document).ready(function($) {
 });
 //=======================================================================================//
 
+
+//Fades top div while scrolling
 $(window).scroll(function () {
     var scrollTop = $(window).scrollTop();
     var height = $(window).height();
@@ -54,3 +56,34 @@ $(window).scroll(function () {
         'opacity': ((height - scrollTop*1.1) / height)
     });
 });
+//======================================================//
+
+
+//Fixes the top div at the top
+(function(window){
+$.fn.stopAtTop= function () {
+    var $this = this,
+        $window = $(window),
+        thisPos = $this.offset().top,
+        setPosition,
+        over;
+
+    over = function(){
+        if (!($window.scrollTop() < thisPos)){
+            $this.css({
+                position: 'fixed',
+                top: 0
+            });
+        }
+    };
+
+    setPosition = over;
+
+    $window.scroll(function(){
+      setPosition();
+    });
+};
+})(window);
+
+$('.section1').stopAtTop();
+//=================================================//

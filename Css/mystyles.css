@@ -73,12 +73,16 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  position: absolute;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
 }
 /*******General styled elements end*********/
 
 body{
     background-color:#17202A;
-    visibility:hidden; /*initially unvisible as 'loading iframe is being displayed*/
+    visibility:hidden; /*initially unvisible as 'loading' div is being displayed*/
     overflow-x:hidden;
     margin: 0px;
     padding: 0px;
@@ -87,6 +91,7 @@ body{
 /*Section1 and child components*/
 .section1{
   height: 100vh;
+  position: fixed;
 }
 
 #profile_pic{
@@ -122,13 +127,15 @@ body{
 
 /*Section2 and child components*/
 .section2{
-  height: 80vh;
+  height: 100vh;
+  top: 100%;
 }
 /********Section2 styling ends**********/
 
 /*Section3 and child components*/
 .section3{
   height: 100vh;
+  top: 200%;
 }
 
 .verticalLine {
@@ -179,6 +186,7 @@ body{
 /*Section4 and child components*/
 .section4{
   height: 100vh;
+  top: 300%;
 }
 
 .carousel-inner{
@@ -209,6 +217,7 @@ body{
 /*Section5 and child components*/
 .section5{
   height: 100vh;
+  top: 400%;
 }
 
 .i_social
@@ -277,14 +286,10 @@ body{
   background-image: url("../Images/noise.png");
   color: #17202A;
 }
-/*********Footer styling ends**********/
 
-
-@media only screen and (max-width: 1200px) {
-    body {
-        overflow-x: visible;
-    }
-    .content_container{
-        min-width:1200px;
-    }
+footer{
+    position:absolute;
+    top:500%;
+    margin-left: 38%;
 }
+/*********Footer styling ends**********/
