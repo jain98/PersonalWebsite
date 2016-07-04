@@ -1,14 +1,13 @@
 $(document).ready(function(){
-  $('iframe').show();
-  $('.main_content').hide();
+  $('.loading_content').show();
+  $('.content_container').hide();
   document.body.style.visibility = 'visible';
 })
 
 $(window).load(function(){
-
     function show_main(){
-      $('iframe').fadeOut('slow');
-      $('.main_content').fadeIn('slow');
+      $('.loading_content').fadeOut('slow');
+      $('.content_container').fadeIn('slow');
     };
 
       function change_text(){
