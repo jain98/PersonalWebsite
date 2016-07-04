@@ -280,13 +280,6 @@ body{
 /*********Footer styling ends**********/
 
 
-iframe{
-    display: block;       /* iframes are inline by default */
-    border: none;         /* Reset default border */
-    height: 100vh;        /* Viewport-relative units */
-    width: 100vw;
-}
-
 @media only screen and (max-width: 1200px) {
     body {
         overflow-x: visible;
