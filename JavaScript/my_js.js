@@ -45,3 +45,12 @@ $(document).ready(function($) {
     });
 });
 //=======================================================================================//
+
+$(window).scroll(function () {
+    var scrollTop = $(window).scrollTop();
+    var height = $(window).height();
+
+    $('.section1').css({
+        'opacity': ((height - scrollTop*1.1) / height)
+    });
+});
