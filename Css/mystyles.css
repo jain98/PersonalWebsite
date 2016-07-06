@@ -257,6 +257,13 @@ body{
 }
 /********Section5 styling ends**********/
 
+/*Section6 and child components*/
+.section6{
+  height: 100vh;
+  top: 500%;
+}
+/********Section6 styling ends**********/
+
 /*Footer styling*/
 
 .img-rounded:hover{
@@ -289,7 +296,7 @@ body{
 
 footer{
     position:absolute;
-    top:500%;
+    top:600%;
     margin-left: 38%;
 }
 /*********Footer styling ends**********/
